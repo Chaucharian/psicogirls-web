@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="terapia" className="w-full flex flex-col md:flex-row items-center justify-center bg-[#FBEFEF] py-16 px-4 md:px-0">
       <div className="flex-1 flex justify-center mb-8 md:mb-0">
-        <img src="/placeholder-about.svg" alt="About Illustration" className="w-[260px] h-[260px] object-contain rounded-full bg-[#FFF3F3]" />
+        <img src="/images/hero2.png" alt="About Illustration" className="w-[260px] h-[260px] object-contain rounded-full bg-[#FFF3F3]" />
       </div>
       <div className="flex-1 max-w-xl">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">¿Cuándo buscar profesional?</h2>
