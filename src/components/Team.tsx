@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const team = [
   {
@@ -27,13 +28,11 @@ const Team = () => {
       <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">Nosotros</h2>
       <div className="flex flex-col md:flex-row gap-8 w-full max-w-4xl justify-center items-center">
         {team.map((member, i) => (
-          <div key={i} className="bg-white rounded-xl shadow p-6 flex flex-col justify-between max-w-sm w-full min-h-[500px]">
-           <div className='flex flex-col items-center'> 
-            <img src={member.img} alt={member.name} className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-[#E5E7EB]" />
+          <div key={i} className="bg-white rounded-xl shadow p-6 flex flex-col items-center max-w-sm w-full">
+            <Image src={member.img} alt={member.name} width={128} height={128} className="w-32 h-32 rounded-full object-cover mb-4 border-4 border-[#E5E7EB]" />
             <div className="font-bold text-lg text-gray-800 mb-2 text-center">{member.name}</div>
             <div className="text-gray-700 text-sm mb-4 text-center">{member.desc}</div>
-          </div>
-            <a href="#" className="bg-[#BFA2DB] text-center text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-[#a88fc2] transition text-sm">{member.cta}</a>
+            <a href="#" className="bg-[#BFA2DB] text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-[#a88fc2] transition text-sm">{member.cta}</a>
           </div>
         ))}
       </div>
