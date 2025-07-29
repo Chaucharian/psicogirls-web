@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <OnlineInfo />
+        {/* <OnlineInfo /> */}
         <Team />
         <Testimonials />
         <AvailabilityForm />
