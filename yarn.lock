@@ -145,6 +145,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/merriweather@npm:^5.2.9":
+  version: 5.2.9
+  resolution: "@fontsource/merriweather@npm:5.2.9"
+  checksum: 667b00db85318fe787d690dea9271c9ed1b2894db04a1640327359b17587ecc78e829a4d945d46f5457f7cfadee85df65cd25e1caa7bd07c76f795052d8b898f
+  languageName: node
+  linkType: hard
+
+"@fontsource/roboto@npm:^5.2.6":
+  version: 5.2.6
+  resolution: "@fontsource/roboto@npm:5.2.6"
+  checksum: d010804e5468c73dc37bfa20a0809fa1283dfd218ce323d6608b986cdcc1b6f329ed09e4d35711c04701b3e3a08f95eff97d98642e82a51f771c8ccb13d39660
+  languageName: node
+  linkType: hard
+
 "@humanfs/core@npm:^0.19.1":
   version: 0.19.1
   resolution: "@humanfs/core@npm:0.19.1"
@@ -3265,6 +3279,8 @@ __metadata:
   resolution: "psicogirls-web@workspace:."
   dependencies:
     "@eslint/eslintrc": ^3
+    "@fontsource/merriweather": ^5.2.9
+    "@fontsource/roboto": ^5.2.6
     "@tailwindcss/postcss": ^4
     "@types/node": ^20
     "@types/react": ^19

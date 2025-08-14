@@ -2,15 +2,15 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gradient-to-r from-emerald-100 to-teal-100 py-8 px-4 md:px-16 border-t border-emerald-200">
+    <footer className="w-full bg-gradient-to-r from-primary/20 to-secondary/20 py-8 px-4 md:px-16 border-t border-primary/40">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center mb-4 md:mb-0">
-          <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center mr-2">
+          <div className="w-8 h-8 bg-gradient-to-br from-secondary to-accent rounded-full flex items-center justify-center mr-2">
             <span className="text-white text-sm font-bold">PV</span>
           </div>
           <div className="font-bold text-xl text-gray-600">
             <span className="text-gray-500">psi</span>
-            <span className="text-emerald-600">online</span>
+            <span className="text-secondary">online</span>
           </div>
         </div>
         
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center space-x-4">
-            <a href="#" className="text-emerald-600 hover:text-emerald-700 text-sm font-medium transition-colors">
+            <a href="#" className="text-secondary hover:text-secondary/80 text-sm font-medium transition-colors">
               Política de Privacidad
             </a>
             <span className="text-gray-400 text-xs">&copy; {new Date().getFullYear()} psionline</span>

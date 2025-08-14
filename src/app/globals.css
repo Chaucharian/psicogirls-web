@@ -1,11 +1,29 @@
 @import "tailwindcss";
+@import "@fontsource/merriweather/300.css";
+@import "@fontsource/merriweather/400.css";
+@import "@fontsource/merriweather/700.css";
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+/* 
+#dbdfe8
+#efe2c9
+#a4cdaf
+#efe0c8 
+*/
 
 :root {
   --background: #ffffff;
   --foreground: #4a5568;
-  --primary-sage: #e6f3e6;
+  --primary: #dbdfe8;
+  --secondary: #a4cdaf;
+  --accent: #efe0c8;
+  --primary-sage: #dbdfe8;
   --secondary-lavender: #f0e6f3;
   --accent-mint: #e6f3f0;
+  --accent-blue: #e6f0f7;
   --text-dark: #4a5568;
   --text-light: #718096;
   --border-light: #e2e8f0;
@@ -24,9 +42,13 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
   --color-primary-sage: var(--primary-sage);
   --color-secondary-lavender: var(--secondary-lavender);
   --color-accent-mint: var(--accent-mint);
+  --color-accent-blue: var(--accent-blue);
   --color-text-dark: var(--text-dark);
   --color-text-light: var(--text-light);
   --color-border-light: var(--border-light);
@@ -40,22 +62,46 @@
   --color-soft-mint: var(--soft-mint);
   --color-pale-sky: var(--pale-sky);
   --color-warm-beige: var(--warm-beige);
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: 'Merriweather', Georgia, serif;
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* Remove dark mode to ensure white backgrounds always */
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-sans);
   line-height: 1.6;
+}
+
+/* Typography hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 /* Custom scrollbar for a more peaceful feel */

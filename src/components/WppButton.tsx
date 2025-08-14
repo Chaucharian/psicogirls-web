@@ -15,7 +15,7 @@ export const WppButton = () => {
   return (
     <button 
       onClick={handleWhatsAppClick}
-      className="bg-green-500 rounded-full p-4 shadow hover:bg-green-600 transition flex items-center"
+      className="bg-secondary rounded-full p-4 shadow hover:bg-secondary/80 transition flex items-center"
     >
       <svg 
         xmlns="http://www.w3.org/2000/svg" 

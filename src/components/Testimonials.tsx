@@ -6,14 +6,14 @@ const Testimonials = () => {
     <section className="w-full bg-white py-20 px-4 md:px-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-600 mb-6">Lo que opinan mis pacientes</h2>
-          <p className="text-gray-500 text-lg max-w-3xl mx-auto leading-relaxed">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-600 mb-6">Lo que opinan mis pacientes</h2>
+          <p className="text-gray-500 text-lg max-w-3xl mx-auto leading-relaxed font-sans">
             Algunos de los pacientes que hemos acompañado en estos años opinan esto sobre nuestro trabajo.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-2xl p-8 md:p-12 shadow-sm border border-emerald-100">
+          <div className="bg-gradient-to-r from-primary/20 to-secondary/20 rounded-2xl p-8 md:p-12 shadow-sm border border-primary/40">
             <div className="text-center">
               <div className="flex justify-center mb-4">
                 <div className="flex space-x-1">
@@ -25,19 +25,19 @@ const Testimonials = () => {
                 </div>
               </div>
               
-              <h3 className="text-xl font-bold text-gray-600 mb-4">Una genia Pame</h3>
+              <h3 className="text-xl font-serif font-bold text-gray-600 mb-4">Una genia Pame</h3>
               
-              <blockquote className="text-gray-500 leading-relaxed mb-6 text-lg italic">
+              <blockquote className="text-gray-500 leading-relaxed mb-6 text-lg italic font-sans">
                 "Atención muy profesional y agradable. Altamente recomendable. Me ayudó mucho con mi proceso de crecimiento personal y siempre me sentí acompañada en todo momento."
               </blockquote>
               
               <div className="flex items-center justify-center space-x-4">
-                <div className="w-12 h-12 bg-emerald-200 rounded-full flex items-center justify-center">
-                  <span className="text-emerald-700 font-bold text-lg">M</span>
+                <div className="w-12 h-12 bg-secondary/50 rounded-full flex items-center justify-center">
+                  <span className="text-secondary font-bold text-lg">M</span>
                 </div>
                 <div className="text-left">
-                  <p className="font-semibold text-gray-600">Mauricio</p>
-                  <p className="text-sm text-gray-500">Paciente desde 2023</p>
+                  <p className="font-semibold text-gray-600 font-sans">Mauricio</p>
+                  <p className="text-sm text-gray-500 font-sans">Paciente desde 2023</p>
                 </div>
               </div>
             </div>

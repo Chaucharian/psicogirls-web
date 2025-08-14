@@ -21,17 +21,17 @@ const features = [
 
 const OnlineInfo = () => {
   return (
-    <section id="online" className="w-full flex flex-col items-center py-16 px-4 bg-white">
-      <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Online</h2>
-      <p className="text-gray-700 max-w-2xl text-center mb-6">
+    <section id="online" className="w-full flex flex-col items-center py-16 px-4 bg-background">
+      <h2 className="text-2xl md:text-3xl font-serif font-bold text-gray-800 mb-4">Online</h2>
+      <p className="text-gray-700 max-w-2xl text-center mb-6 font-sans">
         La pandemia nos demostró que podemos hacer mucho más cosas online de lo que imaginábamos a comienzos de 2020. Te ofrecemos acompañarte desde donde estés, ya sea por primera vez o si ya estás en consulta previa. Recuerda reservar tu sesión de 45 minutos para que el tiempo sea para ti y el consultorio.
       </p>
-      <a href="#" className="bg-[#BFA2DB] text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-[#a88fc2] transition mb-8">Gestioná tu turno virtual ACA</a>
+      <a href="#" className="bg-primary text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-primary/80 transition mb-8">Gestioná tu turno virtual ACA</a>
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 w-full max-w-4xl">
         {features.map((f, i) => (
           <div key={i} className="flex flex-col items-center text-center max-w-xs">
             <div className="text-4xl mb-2">{f.icon}</div>
-            <div className="font-semibold text-gray-800 mb-1">{f.title}</div>
+            <div className="font-semibold text-gray-800 mb-1 font-sans">{f.title}</div>
           </div>
         ))}
       </div>
