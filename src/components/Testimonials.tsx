@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const Testimonials = () => {
   return (
@@ -28,7 +27,7 @@ const Testimonials = () => {
               <h3 className="text-xl font-serif font-bold text-gray-600 mb-4">Una genia Pame</h3>
               
               <blockquote className="text-gray-500 leading-relaxed mb-6 text-lg italic font-sans">
-                "Atención muy profesional y agradable. Altamente recomendable. Me ayudó mucho con mi proceso de crecimiento personal y siempre me sentí acompañada en todo momento."
+                &ldquo;Atención muy profesional y agradable. Altamente recomendable. Me ayudó mucho con mi proceso de crecimiento personal y siempre me sentí acompañada en todo momento.&rdquo;
               </blockquote>
               
               <div className="flex items-center justify-center space-x-4">
