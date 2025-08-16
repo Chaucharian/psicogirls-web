@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Psionline",
+  title: "Haciendo Terapia",
   description: "Tu espacio de confianza para la salud mental",
 };
 

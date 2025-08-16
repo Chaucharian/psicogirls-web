@@ -9,7 +9,7 @@ export const WppButton = () => {
   const handleWhatsAppClick = () => {
     const randomIndex = Math.floor(Math.random() * whatsappNumbers.length);
     const randomNumber = whatsappNumbers[randomIndex];
-    window.open(`https://wa.me/${randomNumber}`, '_blank');
+    window.open(`https://wa.me/${'+5491157428691'}`, '_blank');
   };
 
   return (
