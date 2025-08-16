@@ -5,12 +5,9 @@ const Footer = () => {
     <footer className="w-full bg-gradient-to-r from-primary/20 to-secondary/20 py-8 px-4 md:px-16 border-t border-primary/40">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center mb-4 md:mb-0">
-          <div className="w-8 h-8 bg-gradient-to-br from-secondary to-accent rounded-full flex items-center justify-center mr-2">
-            <span className="text-white text-sm font-bold">PV</span>
-          </div>
           <div className="font-bold text-xl text-gray-600">
-            <span className="text-gray-500">psi</span>
-            <span className="text-secondary">online</span>
+          <span className="text-gray-600 font-serif">haciendo</span>
+          <span className="text-secondary font-serif">terapia</span>
           </div>
         </div>
         
@@ -20,7 +17,7 @@ const Footer = () => {
               <svg className="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
               </svg>
-              <span>psionlinefem@gmail.com</span>
+              <span>haciendoterapia@gmail.com</span>
             </div>
             <div className="flex items-center space-x-2">
               <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -34,7 +31,7 @@ const Footer = () => {
             <a href="#" className="text-secondary hover:text-secondary/80 text-sm font-medium transition-colors">
               Política de Privacidad
             </a>
-            <span className="text-gray-400 text-xs">&copy; {new Date().getFullYear()} psionline</span>
+            <span className="text-gray-400 text-xs">&copy; {new Date().getFullYear()} haciendoterapia</span>
           </div>
         </div>
       </div>

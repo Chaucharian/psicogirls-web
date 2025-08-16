@@ -5,25 +5,25 @@ const team = [
   {
     name: 'Lic. Tatiana Carla Archetti',
     img: '/images/tati.png',
-    desc: 'Lic. en Psicología con Orientación Sistémica. Trabaja en estrategia de género en la Fundación Puentes de Cambio. Experiencia en el equipo de salud mental del Hospital de Niños Humberto Notti, en consultorios privados y en atención a pacientes en situación de vulnerabilidad en centros de comunidad (Luz Corvalán).',
+    desc: 'Lic. en Psicología especializada en Terapia Cognitivo Conductual (TCC). Experiencia en el tratamiento de ansiedad, depresión y trastornos del estado de ánimo. Formación en terapias de tercera generación y mindfulness. Atención a adolescentes y adultos con enfoque en el desarrollo de habilidades de afrontamiento y regulación emocional.',
     cta: 'Sacá un turno Online conmigo',
-    specialty: 'Terapia Sistémica',
+    specialty: 'Terapia Cognitivo Conductual',
     license: 'M.N. 79053'
   },
   {
     name: 'Lic. Romina Tate',
     img: '/images/romi.png',
-    desc: 'Lic. en Psicología con Orientación en Terapia Breve Sistémica. 15+ años de experiencia en recursos terapéuticos de enfoque sistémico, consultorios privados y atención a niños, adolescentes y adultos en situación de vulnerabilidad. Atención con perspectiva de género.',
+    desc: 'Lic. en Psicología con enfoque ecléctico que integra diferentes corrientes terapéuticas según las necesidades de cada persona. Experiencia en terapia sistémica, cognitivo-conductual y humanista. Especializada en atención a niños, adolescentes y adultos, con perspectiva de género y abordaje personalizado para cada consultante.',
     cta: 'Sacá un turno Virtual conmigo',
-    specialty: 'Terapia Breve Sistémica',
+    specialty: 'Terapia Ecléctica',
     license: 'M.N. 79054'
   },
   {
     name: 'Lic. Agostina Sidone',
     img: '/images/agos.jpeg',
-    desc: 'Lic. en Psicología con Orientación en Terapia Breve Sistémica. 15+ años de experiencia en recursos terapéuticos de enfoque sistémico, consultorios privados y atención a niños, adolescentes y adultos en situación de vulnerabilidad. Atención con perspectiva de género.',
+    desc: 'Lic. en Psicología especializada en Psicoanálisis. Trabajando con el inconsciente y las asociaciones libres. Atención a niños, adolescentes y adultos, ayudando a explorar conflictos internos, traumas y patrones relacionales. Enfoque en el desarrollo personal a través del autoconocimiento.',
     cta: 'Sacá un turno Virtual conmigo',
-    specialty: 'Terapia Breve Sistémica',
+    specialty: 'Terapia Psicoanalítica',
     license: 'M.N. 79055'
   },
 ];
@@ -33,9 +33,9 @@ const Team = () => {
     <section id="nosotros" className="w-full bg-gradient-to-br from-primary/20 to-secondary/20 py-20 px-4 md:px-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-600 mb-6">Soy Pamela Vallejos</h2>
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-600 mb-6">Somos Haciendo Terapia</h2>
           <p className="text-gray-500 text-lg max-w-3xl mx-auto leading-relaxed font-sans">
-            Psicólogas Clínicas egresadas de la Universidad de Buenos Aires, especializadas en Terapia Cognitivo Conductual y Terapias de Tercera Generación. Nuestro objetivo es habilitar un espacio de desarrollo personal adaptado a tus objetivos en el que te sientas seguro y acompañado.
+            Psicólogas Clínicas egresadas de la Universidad de Buenos Aires. Nuestro objetivo es habilitar un espacio de desarrollo personal adaptado a tus objetivos en el que te sientas seguro y acompañado.
           </p>
         </div>
 
