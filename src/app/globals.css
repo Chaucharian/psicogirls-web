@@ -8,35 +8,30 @@
 @import "@fontsource/roboto/700.css";
 
 /* 
-#dbdfe8
-#efe2c9
-#a4cdaf
-#efe0c8 
+New Simplified Color Palette based on the image:
+#cba884 - Medium warm beige (primary)
+#d7b38e - Light warm beige (secondary) 
+#e2be99 - Very light peach/cream (accent)
 */
 
 :root {
   --background: #ffffff;
   --foreground: #4a5568;
-  --primary: #dbdfe8;
-  --secondary: #a4cdaf;
-  --accent: #efe0c8;
-  --primary-sage: #dbdfe8;
-  --secondary-lavender: #f0e6f3;
-  --accent-mint: #e6f3f0;
-  --accent-blue: #e6f0f7;
+  --primary: #cba884;
+  --secondary: #d7b38e;
+  --accent: #e2be99;
+  --primary-light: #d7b38e;
+  --secondary-light: #e2be99;
+  --accent-light: #f5e6d3;
   --text-dark: #4a5568;
   --text-light: #718096;
   --border-light: #e2e8f0;
-  --muted-rose: #f7e6f0;
-  --muted-blue: #e6f0f7;
-  --muted-yellow: #f7f3e6;
-  --muted-peach: #f7e6e6;
-  --soft-lavender: #f0e6f3;
-  --pale-teal: #e6f3f0;
-  --light-peach: #f7e6e6;
-  --soft-mint: #e6f3e6;
-  --pale-sky: #e6f0f7;
-  --warm-beige: #f7f3e6;
+  --muted-primary: #cba88420;
+  --muted-secondary: #d7b38e20;
+  --muted-accent: #e2be9920;
+  --soft-primary: #cba88415;
+  --soft-secondary: #d7b38e15;
+  --soft-accent: #e2be9915;
 }
 
 @theme inline {
@@ -45,23 +40,18 @@
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-accent: var(--accent);
-  --color-primary-sage: var(--primary-sage);
-  --color-secondary-lavender: var(--secondary-lavender);
-  --color-accent-mint: var(--accent-mint);
-  --color-accent-blue: var(--accent-blue);
+  --color-primary-light: var(--primary-light);
+  --color-secondary-light: var(--secondary-light);
+  --color-accent-light: var(--accent-light);
   --color-text-dark: var(--text-dark);
   --color-text-light: var(--text-light);
   --color-border-light: var(--border-light);
-  --color-muted-rose: var(--muted-rose);
-  --color-muted-blue: var(--muted-blue);
-  --color-muted-yellow: var(--muted-yellow);
-  --color-muted-peach: var(--muted-peach);
-  --color-soft-lavender: var(--soft-lavender);
-  --color-pale-teal: var(--pale-teal);
-  --color-light-peach: var(--light-peach);
-  --color-soft-mint: var(--soft-mint);
-  --color-pale-sky: var(--pale-sky);
-  --color-warm-beige: var(--warm-beige);
+  --color-muted-primary: var(--muted-primary);
+  --color-muted-secondary: var(--muted-secondary);
+  --color-muted-accent: var(--muted-accent);
+  --color-soft-primary: var(--soft-primary);
+  --color-soft-secondary: var(--soft-secondary);
+  --color-soft-accent: var(--soft-accent);
   --font-sans: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-serif: 'Merriweather', Georgia, serif;
   --font-mono: var(--font-geist-mono);
@@ -114,12 +104,12 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e0;
+  background: var(--primary);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a0aec0;
+  background: var(--secondary);
 }
 
 /* Custom animations for smooth motion */
@@ -231,7 +221,7 @@ html {
 
 .hover-lift:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 20px 25px -5px rgba(203, 168, 132, 0.15), 0 10px 10px -5px rgba(203, 168, 132, 0.1);
 }
 
 /* Staggered animation delays */
@@ -248,7 +238,7 @@ html {
 
 .focus-ring:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(164, 205, 175, 0.5);
+  box-shadow: 0 0 0 3px rgba(203, 168, 132, 0.3);
   transform: scale(1.02);
 }
 
@@ -271,7 +261,7 @@ html {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(203, 168, 132, 0.2), transparent);
   transition: left 0.5s;
 }
 
@@ -286,7 +276,7 @@ html {
 
 .card-hover:hover {
   transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 25px 50px -12px rgba(203, 168, 132, 0.2);
 }
 
 /* Text reveal animation */
@@ -316,7 +306,7 @@ html {
 
 .form-input-animate:focus {
   transform: scale(1.02);
-  box-shadow: 0 0 0 3px rgba(164, 205, 175, 0.3);
+  box-shadow: 0 0 0 3px rgba(203, 168, 132, 0.3);
 }
 
 /* Loading spinner animation */

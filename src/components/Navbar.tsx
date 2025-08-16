@@ -9,11 +9,11 @@ const Navbar = () => {
     <nav className="w-full bg-white py-4 px-4 md:px-16 shadow-sm fixed top-0 z-50 border-b border-gray-100">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         <div className="font-bold text-xl text-gray-600 flex items-center font-serif transition-all duration-300 hover:scale-105">
-          {/* <div className="w-8 h-8 bg-gradient-to-br from-secondary to-accent rounded-full flex items-center justify-center mr-2">
+          {/* <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mr-2">
             <span className="text-white text-sm font-bold">PO</span>
           </div> */}
           <span className="text-gray-600 font-serif">haciendo</span>
-          <span className="text-secondary font-serif">terapia</span>
+          <span className="text-primary font-serif">terapia</span>
         </div>
         
         {/* Burger menu button */}
@@ -38,10 +38,10 @@ const Navbar = () => {
             <li key={index}>
               <a 
                 href={item.href} 
-                className="hover:text-secondary transition-all duration-300 relative group"
+                className="hover:text-primary transition-all duration-300 relative group"
               >
                 {item.text}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
           ))}
@@ -63,7 +63,7 @@ const Navbar = () => {
             <li key={index}>
               <a 
                 href={item.href} 
-                className="block hover:text-secondary transition-all duration-300 py-2 transform hover:translate-x-2"
+                className="block hover:text-primary transition-all duration-300 py-2 transform hover:translate-x-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.text}

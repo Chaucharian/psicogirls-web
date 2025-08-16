@@ -38,49 +38,49 @@ const About = () => {
               icon: "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z",
               title: "Ansiedad Generalizada",
               description: "Te ayudamos a manejar la ansiedad y encontrar calma en tu día a día.",
-              bgColor: "bg-secondary/20 hover:bg-secondary/30",
-              iconBg: "bg-secondary/50",
-              iconColor: "text-secondary"
-            },
-            {
-              icon: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z",
-              title: "Depresión",
-              description: "Acompañamos tu proceso de recuperación y bienestar emocional.",
-              bgColor: "bg-accent/20 hover:bg-accent/30",
-              iconBg: "bg-accent/50",
-              iconColor: "text-accent"
-            },
-            {
-              icon: "M13 10V3L4 14h7v7l9-11h-7z",
-              title: "Estrés",
-              description: "Aprendemos técnicas efectivas para manejar el estrés cotidiano.",
-              bgColor: "bg-accent-blue/20 hover:bg-accent-blue/30",
-              iconBg: "bg-accent-blue/50",
-              iconColor: "text-accent-blue"
-            },
-            {
-              icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
-              title: "Ansiedad Social",
-              description: "Desarrollamos confianza y habilidades sociales.",
-              bgColor: "bg-accent/20 hover:bg-accent/30",
-              iconBg: "bg-accent/50",
-              iconColor: "text-accent"
-            },
-            {
-              icon: "M13 7h8m0 0v8m0-8l-8 8-4-4-6 6",
-              title: "Desarrollo Personal",
-              description: "Crecimiento personal y autoconocimiento.",
               bgColor: "bg-primary/20 hover:bg-primary/30",
               iconBg: "bg-primary/50",
               iconColor: "text-primary"
             },
             {
-              icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
-              title: "Bienestar Integral",
-              description: "Acompañamiento holístico para tu salud mental.",
+              icon: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z",
+              title: "Depresión",
+              description: "Acompañamos tu proceso de recuperación y bienestar emocional.",
               bgColor: "bg-secondary/20 hover:bg-secondary/30",
               iconBg: "bg-secondary/50",
               iconColor: "text-secondary"
+            },
+            {
+              icon: "M13 10V3L4 14h7v7l9-11h-7z",
+              title: "Estrés",
+              description: "Aprendemos técnicas efectivas para manejar el estrés cotidiano.",
+              bgColor: "bg-accent/20 hover:bg-accent/30",
+              iconBg: "bg-accent/50",
+              iconColor: "text-accent"
+            },
+            {
+              icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
+              title: "Ansiedad Social",
+              description: "Desarrollamos confianza y habilidades sociales.",
+              bgColor: "bg-primary/20 hover:bg-primary/30",
+              iconBg: "bg-primary/50",
+              iconColor: "text-primary"
+            },
+            {
+              icon: "M13 7h8m0 0v8m0-8l-8 8-4-4-6 6",
+              title: "Desarrollo Personal",
+              description: "Crecimiento personal y autoconocimiento.",
+              bgColor: "bg-secondary/20 hover:bg-secondary/30",
+              iconBg: "bg-secondary/50",
+              iconColor: "text-secondary"
+            },
+            {
+              icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
+              title: "Bienestar Integral",
+              description: "Acompañamiento holístico para tu salud mental.",
+              bgColor: "bg-accent/20 hover:bg-accent/30",
+              iconBg: "bg-accent/50",
+              iconColor: "text-accent"
             }
           ].map((item, index) => (
             <div 
@@ -101,7 +101,7 @@ const About = () => {
           ))}
         </div>
 
-        <div className={`bg-gradient-to-r from-primary/20 to-secondary/20 rounded-2xl p-8 md:p-12 transition-all duration-1000 ease-out transform ${
+        <div className={`bg-gradient-to-t from-[#faf3ed] to-white rounded-2xl p-8 md:p-12 transition-all duration-1000 ease-out transform ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
         }`} style={{ transitionDelay: '600ms' }}>
           <div className="text-center">

@@ -22,7 +22,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <section id="contacto" className="w-full bg-gradient-to-br from-primary/20 to-accent/20 py-20 px-4 md:px-16">
+    <section id="contacto" className="w-full bg-gradient-to-bt from-white to-accent/20 py-20 px-4 md:px-16">
       <div className="max-w-6xl mx-auto">
         <div className={`text-center mb-16 transition-all duration-1000 ease-out transform ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
@@ -45,7 +45,7 @@ const Contact = () => {
                   <label className="block text-sm font-medium text-gray-600 mb-2 font-sans">Nombre</label>
                   <input 
                     type="text" 
-                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-300 text-black placeholder:text-gray-400 hover:border-gray-300"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 text-black placeholder:text-gray-400 hover:border-gray-300"
                     placeholder="Tu nombre"
                   />
                 </div>
@@ -53,7 +53,7 @@ const Contact = () => {
                   <label className="block text-sm font-medium text-gray-600 mb-2 font-sans">Apellido</label>
                   <input 
                     type="text" 
-                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-300 text-black placeholder:text-gray-400 hover:border-gray-300"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 text-black placeholder:text-gray-400 hover:border-gray-300"
                     placeholder="Tu apellido"
                   />
                 </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                 <label className="block text-sm font-medium text-gray-600 mb-2 font-sans">Email</label>
                 <input 
                   type="email" 
-                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-300 text-black placeholder:text-gray-400 hover:border-gray-300"
+                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 text-black placeholder:text-gray-400 hover:border-gray-300"
                   placeholder="tu@email.com"
                 />
               </div>
@@ -72,7 +72,7 @@ const Contact = () => {
                 <label className="block text-sm font-medium text-gray-600 mb-2 font-sans">WhatsApp</label>
                 <input 
                   type="tel" 
-                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-300 text-black placeholder:text-gray-400 hover:border-gray-300"
+                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 text-black placeholder:text-gray-400 hover:border-gray-300"
                   placeholder="+54 9 11 1234-5678"
                 />
               </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                 <label className="block text-sm font-medium text-gray-600 mb-2 font-sans">Mensaje</label>
                 <textarea 
                   rows={4}
-                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-300 resize-none text-black placeholder:text-gray-400 hover:border-gray-300"
+                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 resize-none text-black placeholder:text-gray-400 hover:border-gray-300"
                   placeholder="Contanos brevemente sobre tu consulta..."
                 ></textarea>
               </div>
@@ -90,10 +90,10 @@ const Contact = () => {
                 {/* <input 
                   type="checkbox" 
                   id="privacy" 
-                  className="mt-1 h-4 w-4 text-secondary focus:ring-secondary border-gray-300 rounded"
+                  className="mt-1 h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded"
                 />
                 <label htmlFor="privacy" className="text-sm text-gray-500">
-                  He leído y acepto la <a href="#" className="text-secondary hover:text-secondary/80 underline">Política de Privacidad</a>
+                  He leído y acepto la <a href="#" className="text-primary hover:text-primary/80 underline">Política de Privacidad</a>
                 </label> */}
               </div>
               
@@ -115,8 +115,8 @@ const Contact = () => {
               <h3 className="text-xl font-serif font-bold text-gray-600 mb-6">Información de contacto</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 transition-all duration-300 hover:scale-105">
-                  <div className="w-10 h-10 bg-secondary/30 rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110">
-                    <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-10 h-10 bg-primary/30 rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110">
+                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
                   </div>
@@ -127,8 +127,8 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-center space-x-3 transition-all duration-300 hover:scale-105">
-                  <div className="w-10 h-10 bg-accent-blue/30 rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110">
-                    <svg className="w-5 h-5 text-accent-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-10 h-10 bg-secondary/30 rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110">
+                    <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
                   </div>
@@ -141,7 +141,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className={`bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl p-8 border border-primary/40 transition-all duration-1000 ease-out transform ${
+            <div className={`bg-gradient-to-br from-white to-secondary/20 rounded-2xl p-8 border border-primary/40 transition-all duration-1000 ease-out transform ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
             }`} style={{ transitionDelay: '600ms' }}>
               <h3 className="text-xl font-serif font-bold text-gray-600 mb-4">¡Reservá tus sesiones virtuales AHORA!</h3>

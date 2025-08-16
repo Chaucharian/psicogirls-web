@@ -93,7 +93,7 @@ const AvailabilityForm = () => {
           </div>
 
           {/* Availability Form */}
-          <div className={`bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-8 shadow-sm border border-primary/40 transition-all duration-1000 ease-out transform ${
+          <div className={`bg-gradient-to-br from-white to-secondary/20 rounded-2xl p-8 shadow-sm border border-primary/40 transition-all duration-1000 ease-out transform ${
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
           }`} style={{ transitionDelay: '500ms' }}>
             <h3 className="text-xl font-serif font-bold text-gray-600 mb-6">Disponibilidad horaria</h3>
@@ -106,7 +106,7 @@ const AvailabilityForm = () => {
                 <input 
                   type="text" 
                   placeholder="Nombre" 
-                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-300 bg-white text-black placeholder:text-gray-400 hover:border-gray-300"
+                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 bg-white text-black placeholder:text-gray-400 hover:border-gray-300"
                 />
               </div>
               <div className="grid grid-cols-2 gap-4">
@@ -114,14 +114,14 @@ const AvailabilityForm = () => {
                   <input 
                     type="text" 
                     placeholder="Código de área" 
-                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-300 bg-white text-black placeholder:text-gray-400 hover:border-gray-300"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 bg-white text-black placeholder:text-gray-400 hover:border-gray-300"
                   />
                 </div>
                 <div className="transition-all duration-500 ease-out transform hover:scale-105" style={{ transitionDelay: '800ms' }}>
                   <input 
                     type="text" 
                     placeholder="Teléfono" 
-                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-300 bg-white text-black placeholder:text-gray-400 hover:border-gray-300"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 bg-white text-black placeholder:text-gray-400 hover:border-gray-300"
                   />
                 </div>
               </div>
@@ -129,7 +129,7 @@ const AvailabilityForm = () => {
                 <input 
                   type="email" 
                   placeholder="Mail" 
-                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-300 bg-white text-black placeholder:text-gray-400 hover:border-gray-300"
+                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 bg-white text-black placeholder:text-gray-400 hover:border-gray-300"
                 />
               </div>
               
@@ -137,7 +137,7 @@ const AvailabilityForm = () => {
                 <input 
                   type="checkbox" 
                   id="virtual" 
-                  className="mt-1 h-4 w-4 text-secondary focus:ring-secondary border-gray-300 rounded transition-all duration-300 hover:scale-110"
+                  className="mt-1 h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded transition-all duration-300 hover:scale-110"
                 />
                 <label htmlFor="virtual" className="text-sm text-gray-500 font-sans">
                   Conozco que sus Psicólogas atienden sólo de forma virtual
