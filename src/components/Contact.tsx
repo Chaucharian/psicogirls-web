@@ -134,8 +134,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 font-sans">Teléfono</p>
+                    <p className="text-gray-600 font-medium font-sans">+54 9 11 5742-8691</p>
                     <p className="text-gray-600 font-medium font-sans">+54 261 367 1618</p>
-                    <p className="text-gray-600 font-medium font-sans">+54 0261 76 15 14</p>
                   </div>
                 </div>
               </div>
@@ -149,7 +149,12 @@ const Contact = () => {
                 Da el primer paso hacia tu bienestar emocional. Nuestras profesionales están listas para acompañarte en tu proceso de crecimiento personal.
               </p>
               <button 
-                onClick={() => window.open(`https://wa.me/+5491157428691`, '_blank')}
+                onClick={() => {
+                  const whatsappNumbers = ["5491157428691", "542613671618"];
+                  const randomIndex = Math.floor(Math.random() * whatsappNumbers.length);
+                  const selectedNumber = whatsappNumbers[randomIndex];
+                  window.open(`https://wa.me/${selectedNumber}`, '_blank');
+                }}
                 className="w-full bg-white border-2 border-gray-200 text-gray-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 hover:border-gray-300 transition-all duration-300 transform hover:scale-105"
               >
                 Agendar consulta

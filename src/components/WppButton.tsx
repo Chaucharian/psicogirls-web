@@ -2,14 +2,14 @@
 
 export const WppButton = () => {
   const whatsappNumbers = [
-    "542613671618",
-    "540261761514"
+    "5491157428691",
+    "542613671618"
   ];
   
   const handleWhatsAppClick = () => {
     const randomIndex = Math.floor(Math.random() * whatsappNumbers.length);
-    const randomNumber = whatsappNumbers[randomIndex];
-    window.open(`https://wa.me/${'+5491157428691'}`, '_blank');
+    const selectedNumber = whatsappNumbers[randomIndex];
+    window.open(`https://wa.me/${selectedNumber}`, '_blank');
   };
 
   return (
